@@ -1,5 +1,5 @@
 {% set name = "sttr" %}
-{% set version = "0.2.18" %}
+{% set version = "0.2.24" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/abhimanyu003/sttr/archive/v{{ version }}.tar.gz
-  sha256: 89a031b02e976b4119c294723d121e31c1916b482dd367ffa6819bcab9b4c8f9
+  sha256: e9340c65c22d3016f9e4fe0a7f414bd1a8d8463203806c28b09a79889c805d76
 
 build:
   number: 0
