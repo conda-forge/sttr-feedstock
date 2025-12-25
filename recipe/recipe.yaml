@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.2.29"
+  version: "0.2.30"
 
 package:
   name: sttr
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/abhimanyu003/sttr/archive/v${{ version }}.tar.gz
-  sha256: ee9031656861671fd6103fb8d74cede331d92c39afd13b95d0b323debf26bf84
+  sha256: 64c4ddd6f84c99f197053e96c489dea48c0bd83a33dfdd69ab209653bc38b9c8
 
 build:
   number: 0
